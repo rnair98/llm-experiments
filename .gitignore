@@ -1,0 +1,6 @@
+.gguf
+.llamafile
+.env
+.venv/
+.ipynb_checkpoints/
+models/
