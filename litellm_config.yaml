@@ -1,0 +1,16 @@
+model_list:
+  - model_name: mixtral-8x7b-32768
+    litellm_params:
+      model: groq/mixtral-8x7b-32768
+      api_base: os.environ/GROQ_API_BASE
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: mistral-7b-instruct
+    litellm_params:
+      model: perplexity/mistral-7b-instruct
+      api_base: os.environ/PERPLEXITYAI_API_BASE
+      api_key: os.environ/PERPLEXITYAI_API_KEY
+  - model_name: pplx-7b-online
+    litellm_params: 
+      model: perplexity/
+      api_base: os.environ/PERPLEXITYAI_API_BASE
+      api_key: os.environ/:P
