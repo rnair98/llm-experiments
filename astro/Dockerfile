@@ -18,15 +18,15 @@ ENV PIP_DEFAULT_TIMEOUT=100 \
 
 RUN apt-get update && apt-get install -y curl build-essential make
 
-RUN pip install --upgrade pip
+RUN pip install --upgrade pip uv
 
-RUN pip install uv
+COPY pyproject.toml requirements.loc[k] ./
 
-COPY pyproject.toml .
+#RUN uv pip compile pyproject.toml -o requirements.txt
 
-RUN uv pip compile pyproject.toml -o requirements.txt
+#RUN uv pip install --no-cache-dir -r requirements.txt.
 
-RUN uv pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.lock
 
 COPY . .
 RUN chown -R astro /usr/local/airflow
