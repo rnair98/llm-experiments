@@ -1,0 +1,47 @@
+[project]
+name = "notebooks"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Rohit Nair", email = "6954311+rnair98@users.noreply.github.com" }
+]
+dependencies = [
+    "llm>=0.13.1",
+    "llama-cpp-python>=0.2.57",
+    "strip-tags>=0.5.1",
+    "ttok>=0.2",
+    "llm-llama-cpp>=0.3",
+    "llm-ollama>=0.2.0",
+    "llm-openrouter>=0.1",
+    "llm-mistral>=0.3",
+    "llm-claude-3>=0.3",
+    "lightning==2.3.0.dev20240328",
+    "jsonargparse[signatures]>=4.27.6",
+    "litgpt @ git+https://github.com/Lightning-AI/litgpt",
+    "packaging==23.2",
+    "ninja>=1.11.1.1",
+    "transformers @ git+https://github.com/huggingface/transformers.git@43d17c18360ac9c3d3491389328e2fe55fe8f9ce",
+    "trl @ git+https://github.com/huggingface/trl.git@0ee349dcd43b0f4b3169449f16751c38ac4a609f",
+    "bitsandbytes>=0.42.0",
+    "openai>=1.16.2",
+    "anthropic>=0.23.1",
+    "instructor>=1.0.3",
+    "pydantic>=2.7.0b1",
+    "groq>=0.4.2",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/notebooks"]
