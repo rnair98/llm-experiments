@@ -88,6 +88,7 @@ httpcore==1.0.5
 httpx==0.27.0
     # via anthropic
     # via groq
+    # via llm-gemini
     # via llm-llama-cpp
     # via llm-mistral
     # via ollama
@@ -104,6 +105,8 @@ idna==3.6
     # via httpx
     # via requests
     # via yarl
+ijson==3.2.3
+    # via llm-gemini
 importlib-resources==6.4.0
     # via typeshed-client
 instructor==1.0.3
@@ -121,13 +124,14 @@ lightning-utilities==0.11.2
     # via lightning
     # via pytorch-lightning
     # via torchmetrics
-litgpt @ git+https://github.com/Lightning-AI/litgpt@d78730a0694bff6c9f1ce285a6e8b471c1321cf5
+litgpt @ git+https://github.com/Lightning-AI/litgpt@dc1945c6deada79288500516c67e801eb05367a6
     # via notebooks
 llama-cpp-python==0.2.57
     # via notebooks
 llm==0.13.1
     # via llm-claude
     # via llm-claude-3
+    # via llm-gemini
     # via llm-llama-cpp
     # via llm-mistral
     # via llm-ollama
@@ -136,6 +140,8 @@ llm==0.13.1
 llm-claude==0.4.0
     # via llm-claude-3
 llm-claude-3==0.3
+    # via notebooks
+llm-gemini==0.1a3
     # via notebooks
 llm-llama-cpp==0.3
     # via notebooks
