@@ -26,9 +26,10 @@ dependencies = [
     "openai>=1.16.2",
     "anthropic>=0.23.1",
     "instructor>=1.0.3",
-    "pydantic>=2.7.0b1",
+    "pydantic>=2.7.0",
     "groq>=0.4.2",
     "llm-gemini>=0.1a3",
+    "mypy>=1.9.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

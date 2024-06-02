@@ -1,7 +1,37 @@
-- model_id: claude
-  model_name: anthropic/claude-3-haiku:beta
+- model_id: mixtral-instruct
+  model_name: fireworks/mixtral-8x22b-instruct-preview
   api_base: "https://openrouter.ai/api/v1"
   api_key_name: openrouter
   headers:
     HTTP-Referer: "https://llm.datasette.io/"
     X-Title: LLM
+- model_id: claude
+  model_name: anthropic/claude-3-haiku
+  api_base: "https://openrouter.ai/api/v1"
+  api_key_name: openrouter
+  headers:
+    HTTP-Referer: "https://llm.datasette.io/"
+    X-Title: LLM
+- model_id: hermes
+  model_name: nousresearch/nous-hermes-2-mistral-7b-dpo
+  api_base: "https://openrouter.ai/api/v1"
+  api_key_name: openrouter
+  headers:
+    HTTP-Referer: "https://llm.datasette.io/"
+    X-Title: LLM
+- model_id: pplx
+  model_name: llama-3-sonar-large-32k-online
+  api_base: "https://api.perplexity.ai"
+  api_key_name: perplexity
+- model_id: groq
+  model_name: mixtral-8x7b-32768
+  api_base: "https://api.groq.com/openai/v1"
+  api_key_name: groq
+- model_id: llama3-8b
+  model_name: llama3-8b-8192
+  api_base: "https://api.groq.com/openai/v1"
+  api_key_name: groq
+- model_id: llama3-70b
+  model_name: llama3-70b-8192
+  api_base: "https://api.groq.com/openai/v1"
+  api_key_name: groq
