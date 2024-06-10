@@ -1,0 +1,341 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "open-mistral-7b",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-ebd69f96a95c427d9aaefc7c0301f456",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-tiny-2312",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-45d55df4391541a7a5a3d6da8799f166",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-tiny",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-005723c5f3a44de3b7ae62db9f546735",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "open-mixtral-8x7b",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-a778b806fa1d489e912998ed0decd665",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-small-2312",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-c3fe484cf32d415faa594dd408c0cd31",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-small",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-5aa3dcda38d74184a24ab273fa0a77b3",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-small-2402",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-513caa39211b434f8b4817f73a572205",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-small-latest",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-745f945a406041d39d9a27abe5f2a589",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-medium-latest",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-3d975aaf697542d78d10300071dbd803",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-medium-2312",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-3108f236f71d424491bab1564ec16170",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-medium",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-212716df83ab49a6aaf085dca048233c",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-latest",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-2216935ab7974d349c82a68ade4265ee",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-2402",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-9570919cb7ea45df9d5cdcef79edac5f",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    },
+    {
+      "id": "mistral-embed",
+      "object": "model",
+      "created": 1711939620,
+      "owned_by": "mistralai",
+      "root": null,
+      "parent": null,
+      "permission": [
+        {
+          "id": "modelperm-5228dbdf01e6418eb68f4afc74869a9d",
+          "object": "model_permission",
+          "created": 1711939620,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": false,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    }
+  ]
+}
