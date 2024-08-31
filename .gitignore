@@ -13,8 +13,12 @@ build/
 dist/
 wheels/
 *.egg-info
+*.pkl
 
 # venv
 .venv/
 .crewai/
 llamafile-0.7/
+
+# local db
+db/
